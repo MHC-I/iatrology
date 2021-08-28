@@ -1,0 +1,875 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="CoCo">
+  <meta name="keywords" content="">
+  
+  <title>Iatrology</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"iatrology.com","root":"/","version":"1.8.11","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+  <header style="height: 100vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Iatrology</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('https://api.ixiaowai.cn/gqapi/gqapi.php') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="An elegant Material-Design theme for Hexo">
+              
+            </span>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          style=margin-top:0>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/02/20/Aria2%E9%85%8D%E7%BD%AEssl%E5%B9%B6%E9%80%9A%E8%BF%87frp%E6%98%A0%E5%B0%84aria-rpc/" target="_self">
+          Aria2配置ssl并通过frp映射aria rpc
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/02/20/Aria2%E9%85%8D%E7%BD%AEssl%E5%B9%B6%E9%80%9A%E8%BF%87frp%E6%98%A0%E5%B0%84aria-rpc/" target="_self">
+          
+          
+            
+          
+          当AriaNg通过https访问时，ariarpc会强制要求通过https或websocket连接，这时候就需要给aria2配置ssl来开启https访问。
+创建Https隧道，申请ssl证书我是使用的是natfrp创建隧道，创建完通过dnspods将域名解析到natfrp，顺便通过dnspods申请ssl证书
+Aria配置ssl证书1.将dnspods申请的或者其他地方申请的证书下载下来，应该有
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-02-20 10:32" pubdate>
+              2021-02-20
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Aria2/">Aria2</a>
+            
+              <a href="/tags/Frp/">Frp</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/02/20/Linux%E4%B8%8B%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/" target="_self">
+          Linux下文件的解压缩
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/02/20/Linux%E4%B8%8B%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%8E%8B%E7%BC%A9/" target="_self">
+          
+          
+            
+          
+          tar压缩文件1tar -zcvf [name].tar.gz ./[name]/
+
+该命令表示压缩当前路径下的文件夹[name]，压缩后命名为[name].tar.gz
+如果不需要压缩成gz，只需要后缀为tar格式的，那么只需输入
+1tar -zcvf [name].tar ./[name]/
+
+
+
+tar解压文件1tar -xzvf [name].tar.gz
+
+该命令表示把[name].ta
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-02-20 10:23" pubdate>
+              2021-02-20
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Linux/">Linux</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/02/19/hexo%E9%80%9A%E8%BF%87git%E9%83%A8%E7%BD%B2%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8/" target="_self">
+          Hexo通过Git部署到服务器
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/02/19/hexo%E9%80%9A%E8%BF%87git%E9%83%A8%E7%BD%B2%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8/" target="_self">
+          
+          
+            
+          
+          目的：
+通过hexo生成网页
+在服务器上搭建git仓库，并将静态文件通过git上传到云主机
+使用git-hooks实现自动部署
+
+创建git仓库1.安装git12yum install git #centosapt install git #ubuntu
+
+2.添加一个git用户123adduser git   #添加git用户$ chmod 740 /etc/sudoers   #改变sudoe
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-02-19 16:58" pubdate>
+              2021-02-19
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Hexo/">Hexo</a>
+            
+              <a href="/tags/Linux/">Linux</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/02/19/Ubuntu%E4%B8%8BSMB%E6%90%AD%E5%BB%BA/" target="_self">
+          Ubuntu下SMB的搭建
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/02/19/Ubuntu%E4%B8%8BSMB%E6%90%AD%E5%BB%BA/" target="_self">
+          
+          
+            
+          
+          安装smba1sudo apt-get insall samba
+
+（1）如果安装时候遇到
+1E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing
+
+那么执行
+1sudo apt-get update --fix-missing
+
+
+（2）如果安装时遇到
+1/var/lib/dpkg
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-02-19 13:40" pubdate>
+              2021-02-19
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Linux/">Linux</a>
+            
+              <a href="/tags/Ubuntu/">Ubuntu</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/02/19/Ubuntu%E4%B8%8Bdeb%E5%8C%85%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%B8%E8%BD%BD/" target="_self">
+          Ubuntu下deb包的安装与卸载
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/02/19/Ubuntu%E4%B8%8Bdeb%E5%8C%85%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E5%8D%B8%E8%BD%BD/" target="_self">
+          
+          
+            
+          
+          
+deb 格式是 Debian 系统(包含 Debian 和 Ubuntu )专属安装包格式，配合 APT 软件管理系统，成为了当前在 Linux 下非常流行的一种安装包
+– 百度百科
+
+deb包的安装在线安装在线安装可使用apt命令
+1apt install [package name]
+
+若下载速度慢或者无法连接可考虑更换国内源
+离线安装先通过cd进入deb包所在的目录，再使用dpkg命令安装
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-02-19 13:09" pubdate>
+              2021-02-19
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Linux/">Linux</a>
+            
+              <a href="/tags/Ubuntu/">Ubuntu</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/02/10/%E8%A7%A3%E5%86%B3%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BC%BA%E8%A1%8C%E8%B7%B3%E8%BD%ACHTTPS/" target="_self">
+          解决浏览器强行跳转HTTPS
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/02/10/%E8%A7%A3%E5%86%B3%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BC%BA%E8%A1%8C%E8%B7%B3%E8%BD%ACHTTPS/" target="_self">
+          
+          
+            
+          
+          当网站曾经支持https访问，之后由于某些特殊原因只支持http访问时（没错，就是我的网站），浏览器会默认跳转https而导致无法连接，这个时候无论是使用http://mhcii.top还是通过mhcii.top访问都会默认跳转到https://mhcii.top
+
+
+Safari（Mac）1.完全退出Safari
+2.打开终端，输入下面的命令
+1rm  ~/Library/Cookies/HST
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-02-10 19:46" pubdate>
+              2021-02-10
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/">浏览器</a>
+            
+              <a href="/tags/Safari/">Safari</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/02/08/Linux-Mac-OS%E4%BF%AE%E6%94%B9Terminal%E5%90%AF%E5%8A%A8%E9%97%AE%E5%80%99%E8%AF%AD/" target="_self">
+          Linux/Mac OS修改Terminal启动问候语
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/02/08/Linux-Mac-OS%E4%BF%AE%E6%94%B9Terminal%E5%90%AF%E5%8A%A8%E9%97%AE%E5%80%99%E8%AF%AD/" target="_self">
+          
+          
+            
+          
+          首先还是先放上我的终端，如果应用Oh My Zsh的话效果会更好，不过是岁数大了之后就不喜欢花里胡哨了。
+
+
+1.打开终端，输入下面👇的命令
+1sudo vim /etc/motd
+
+（会提示输入密码，密码不会显示）
+2.打开Patorjk生成你想要的字符画
+
+
+点击最下面的select&amp;copy就以复制
+3.返回刚刚打开的Terminal –&gt; 按键i –&gt;按键⌘+v（如果
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-02-08 21:25" pubdate>
+              2021-02-08
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Mac/">Mac</a>
+            
+              <a href="/tags/Linux/">Linux</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/02/06/Termux%E4%BF%AE%E5%A4%8Droot%E6%9D%83%E9%99%90/" target="_self">
+          Termux修复root权限
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/02/06/Termux%E4%BF%AE%E5%A4%8Droot%E6%9D%83%E9%99%90/" target="_self">
+          
+          
+            
+          
+          在Termux中使用su时会因目录结构的原因造成许多命令无法正常使用，我尝试过chroot和tsu好像都不能正常使用，最终使用下面的方法正常使用su。
+进入Termux，直接运行下方命令，若未安装wget需要先安装一下。
+1wget https://mhci.coding.net/p/termux-su/d/master/git/tree/master/install.sh &gt;/dev/nu
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-02-06 20:43" pubdate>
+              2021-02-06
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Termux/">Termux</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/02/06/Termux%E9%85%8D%E7%BD%AENatFrp%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE%E6%9C%8D%E5%8A%A1/" target="_self">
+          Termux配置NatFrp实现远程访问服务
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/02/06/Termux%E9%85%8D%E7%BD%AENatFrp%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE%E6%9C%8D%E5%8A%A1/" target="_self">
+          
+          
+            
+          
+          1.进入Bin文件夹
+（因为Termux特殊的目录结构，所以bin目录与正常的Linux系统并不一样）
+1cd /data/data/com.termux/files/usr/bin
+
+2.Curl所需安装的frpc程序
+1sudo curl -Lo frpc https://getfrp.sh/d/frpc_linux_arm64  #64位系统
+
+以上示例为64位系统的程序，如果是其他系统的话
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-02-06 19:19" pubdate>
+              2021-02-06
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Frp/">Frp</a>
+            
+              <a href="/tags/Android/">Android</a>
+            
+              <a href="/tags/Termux/">Termux</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/02/04/MacOS-Catalina-%E5%BD%BB%E5%BA%95%E5%B1%8F%E8%94%BD%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/" target="_self">
+          MacOS Catalina 彻底屏蔽系统更新
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/02/04/MacOS-Catalina-%E5%BD%BB%E5%BA%95%E5%B1%8F%E8%94%BD%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/" target="_self">
+          
+          
+            
+          
+          Mac OS Bigsur 正式版发布后，Catalina会经常检查更新，不仅会在docker栏出现小红点，当点击苹果菜单时也会有相关的信息，逼死强迫症。通过下面的方法屏蔽后，随意点进系统更新，也不会出现小红点了
+
+
+修改host1.打开终端（Terminal），输入命令
+1sudo vim /etc/hosts
+
+输入密码（密码不会显示，输完直接回车），打开后大概是这个样子的
+
+
+2.切换到英
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-02-04 22:24" pubdate>
+              2021-02-04
+            </time>
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Mac/">Mac</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/#board">2</a><a class="extend next" rel="next" href="/page/2/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a target="_blank" rel="noopener" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referra"><img src="/img/upyun.png" srcset="/img/loading.gif" lazyload align="absmiddle" width="59px" height="30px" /></a> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>  Hexo</span></a> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>  Fluid</span></a> 
+  </div>
+  
+
+  
+  <!-- 备案信息 -->
+  <div class="beian">
+    <span>
+      <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+        京ICP证123456号
+      </a>
+    </span>
+    
+  </div>
+
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js" ></script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      $.ajax({
+        type: 'GET',
+        url: 'https://v1.hitokoto.cn/?c=d&amp;encode=json',
+        headers: {},
+        dataType: 'json',
+        success: function (result) {
+          var text;
+          if (result) {
+            var keys = 'hitokoto'.split('.')
+            if (result instanceof Array) {
+              result = result[0]
+            }
+            for (const k of keys) {
+              var value = result[k]
+              if (typeof value === 'string') {
+                text = value
+                break
+              } else if (value instanceof Object) {
+                result = value
+              }
+            }
+          }
+          text ? typing(text) : typing(title);
+        },
+        error: function () {
+          typing(title)
+        }
+      })
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
